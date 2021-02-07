@@ -1,0 +1,17 @@
+{
+ "version": 2,
+ "routes": [
+ {
+ "src": "/raw/gist/(.*)",
+ "dest": "https://gist.githubusercontent.com/$1"
+ },
+ {
+ "src": "/raw/gh/Hackl0us/SS-Rule-Snippet/(.*)",
+ "dest": "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/$1"
+ },
+ {
+ "src": "/raw/gh/DivineEngine/Profiles/(.*)",
+ "dest": "https://raw.githubusercontent.com/DivineEngine/Profiles/$1"
+ }
+ ]
+ }
